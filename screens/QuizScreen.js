@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, TouchableOpacity, View, Button } from 'react-native';
 import { connect } from 'react-redux';
 import styles from '../assets/styles';
-import { clearLocalNotification } from './utils/helpers';
+import { clearLocalNotification } from '../utils/helpers';
 
 export class QuizScreen extends Component {
   constructor(props) {
