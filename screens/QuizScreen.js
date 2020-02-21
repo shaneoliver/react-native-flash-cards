@@ -112,7 +112,7 @@ export class QuizScreen extends Component {
             </View>
             <View style={ [ styles.row, styles.spaceY] }>
                 <TouchableOpacity style={ [styles.button, styles.buttonPrimary] } onPress={() => this.setState({ showAnswer: ! this.state.showAnswer })}>
-                    <Text style={ styles.buttonText }>Flip</Text>
+                    <Text style={ styles.buttonText }>Show { this.state.showAnswer ? 'Question' : 'Answer' }</Text>
                 </TouchableOpacity>
             </View>
         </View>
