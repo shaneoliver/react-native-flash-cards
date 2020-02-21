@@ -15,3 +15,6 @@ This will open Expo Developer Tools in the browser.  You can then do one of the 
 - Use an Android Emulator or iOS Simulator to run the app:
     - [iOS Simulator Setup](https://docs.expo.io/versions/v36.0.0/introduction/installation/#ios-simulator)
     - [Android Emulator Setup](https://docs.expo.io/versions/v36.0.0/introduction/installation/#android-emulator)
+
+## Testing
+Primarily tested on iOS 13.3 and Android Q
